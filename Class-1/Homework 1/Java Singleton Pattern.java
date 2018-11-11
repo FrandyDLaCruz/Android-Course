@@ -11,9 +11,9 @@ class Singleton{
         
     }
     public String str;
-    private static final Singleton instance = new Singleton();
+    private static final Singleton INSTANCE = new Singleton();
     
     public static Singleton getSingleInstance() {    
-        return instance;
+        return INSTANCE;
     }
 }
